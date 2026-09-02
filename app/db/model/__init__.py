@@ -1,0 +1,12 @@
+from .forum import ForumComment as ForumComment
+from .forum import ForumPost as ForumPost
+from .forum import ForumPostLike as ForumPostLike
+from .notebook import Notebook as Notebook
+from .notebook import NotebookAttachment as NotebookAttachment
+from .notebook import NotebookMessage as NotebookMessage
+from .notebook import NotebookNote as NotebookNote
+from .notebook import NotebookSource as NotebookSource
+from .notebook import StudioArtifact as StudioArtifact
+from .profile import ProfileRevision as ProfileRevision
+from .profile import StudentProfile as StudentProfile
+from .user import User as User

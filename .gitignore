@@ -1,0 +1,64 @@
+# Python 缓存与检查产物
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# 本地环境变量与密钥
+.env
+.env.*
+!.env.example
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 本地数据库与运行数据
+*.db
+*.sqlite
+*.sqlite3
+data/uploads/
+runtime/
+*.db-journal
+*.db-shm
+*.db-wal
+
+# 本地知识库材料与维护脚本
+/data/*.json
+/data/*.pdf
+/scripts/
+
+# 前端依赖与构建产物
+fronted/node_modules/
+fronted/dist/
+
+# IDE
+.idea/
+.vscode/
+
+# 本地 AI 工具目录
+.agents/
+.codex/
+
+# 生成的归档文件
+*.zip
+*.7z
+*.rar
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log

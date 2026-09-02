@@ -1,0 +1,40 @@
+[project]
+name = "zhidao"
+version = "0.1.0"
+description = "基于多智能体协作的个性化学习平台"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi>=0.135",
+    "httpx[socks]>=0.28.1",
+    "langchain-core>=1.4.0",
+    "langchain-openai>=1.2.2",
+    "langgraph>=1.2.2",
+    "openai>=2.38.0",
+    "pwdlib[argon2]>=0.3.0",
+    "pydantic-settings>=2.14.1",
+    "pyjwt>=2.13.0",
+    "pymupdf>=1.26.0",
+    "pypdf>=6.12.2",
+    "python-docx>=1.2.0",
+    "python-multipart>=0.0.30",
+    "qdrant-client[fastembed]>=1.18.0",
+    "redis>=7.4.0",
+    "sentence-transformers>=5.5.1",
+    "sqlalchemy>=2.0.50",
+    "uvicorn[standard]>=0.48.0",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.0.3",
+    "pytest-asyncio>=1.4.0",
+    "ruff>=0.15.15",
+]
